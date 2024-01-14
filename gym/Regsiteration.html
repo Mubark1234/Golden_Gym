@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="RegsiterationStyle.css" />
+    <title>Regsiteration</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">REGISTER</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullName">Full Name</label>
+                    <input type="text"
+                           id="fullName"
+                           name="fullName"
+                           placeholder="Enter Full Name" />
+                </div>
+                <div class="user-input-box">
+                    <label for="town">Choose Your Town</label>
+                    <div class="select-box">
+                        <select>
+                            <option hidden="">Town</option>
+                            <option>AlMukall</option>
+                            <option>Adeas</option>
+                            <option>Asharsh</option>
+                            <option>Foah</option>
+                            <option>Rokab</option>
+                       </select>
+                    </div>
+               </div>
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Enter Email" />
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Choose Your Program</label>
+                    <div class="select-box">
+                        <select>
+                            <option value="Sport">Sport</option>
+                            <option>Physical Fitness</option>
+                            <option>Fat Lose</option>
+                            <option>Body Building</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="user-input-box">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text"
+                           id="phoneNumber"
+                           name="phoneNumber"
+                           placeholder="Enter Phone Number" />
+                </div>
+                <div class="user-input-box">
+                    <label for="confirmPassword">Choose Your Plan</label>
+                    <div class="select-box">
+                        <select>
+                            <option hidden="">Weekly Plan</option>
+                            <option>Weekly Plan SR20</option>
+                            <option>Monthly Plan SR70</option>
+                            <option>Yearly Plan SR300</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="gender-details-box">
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
